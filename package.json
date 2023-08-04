@@ -1,0 +1,29 @@
+{
+  "name": "technical-thapa-project",
+  "version": "1.0.0",
+  "description": "A small backend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "keywords": [],
+  "author": "ns84993@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.1",
+    "cookie-parser": "^1.4.6",
+    "credential": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "jquery": "^3.7.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.1",
+    "path": "^0.12.7",
+    "validator": "^13.9.0"
+  }
+}

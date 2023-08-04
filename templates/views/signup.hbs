@@ -1,0 +1,101 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    {{! <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css"> }}
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    {{!-- {{>navbar}} --}}
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pogo">
+      <a class="navbar-brand mx-3" href="/" id="logo">Nikhil Kumar</a>
+
+    </nav>
+    <div class="container-fluid mt-5 contact-style" id="contactid">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+
+          <div class="row">
+            <div
+              class="col-md-6 col-12 mx-auto border-signup d-flex justify-content-center align-items-center"
+            >
+              <form class="form" action="/signup" method="POST">
+                <p class="title">Register </p>
+                <p class="message">Signup now and be a part of family.
+                </p>
+                <div class="flex">
+                  <label>
+                    <input
+                      required=""
+                      placeholder=""
+                      type="text"
+                      class="input"
+                      name="firstname"
+                    />
+                    <span>Firstname</span>
+                  </label>
+
+                  <label>
+                    <input
+                      required=""
+                      placeholder=""
+                      type="text"
+                      class="input"
+                      name="lastname"
+                    />
+                    <span>Lastname</span>
+                  </label>
+                </div>
+
+                <label>
+                  <input
+                    required=""
+                    placeholder=""
+                    type="email"
+                    class="input"
+                    name="email"
+                  />
+                  <span>Email</span>
+                </label>
+
+                <label>
+                  <input
+                    required=""
+                    placeholder=""
+                    type="password"
+                    class="input"
+                    name="password"
+                  />
+                  <span>Password</span>
+                </label>
+                <label>
+                  <input
+                    required=""
+                    placeholder=""
+                    type="password"
+                    class="input"
+                    name="confirmpassword"
+                  />
+                  <span>Confirm password</span>
+                </label>
+                <button class="submit">SignUp</button>
+                <p class="signin">Already have an account ?
+                  <a href="/login">Login</a>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../jq/jquery.js"></script>
+    {{! <script src="../../node_modules/jquery/dist/jquery.js" type="text/javascript"></script> }}
+
+    <script src="../js/bootstrap.js"></script>
+    {{! <script src="../../node_modules/bootstrap/dist/js/bootstrap.js" type="text/javascript"></script> }}
+
+  </body>
+</html>
